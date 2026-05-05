@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+html {
+  scrollbar-gutter: stable;
+}
+
 html, body {
   background: #ffffff;
   font-family: 'Cormorant Garamond', serif;
@@ -35,10 +39,10 @@ nav {
 }
 
 .site-title {
-  font-size: 12px;
+  font-size: 17px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: #999;
+  color: #777;
   white-space: nowrap;
 }
 
@@ -55,10 +59,10 @@ nav {
 }
 
 .nav-link {
-  font-size: 11px;
+  font-size: 16px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: #bbb;
+  color: #888;
   transition: color 0.2s;
 }
 
@@ -68,8 +72,8 @@ nav {
 }
 
 .nav-separator {
-  color: #ddd;
-  font-size: 11px;
+  color: #bbb;
+  font-size: 16px;
   letter-spacing: 0;
 }
 
@@ -134,7 +138,7 @@ nav {
   }
 
   .nav-link {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .nav-instagram {
@@ -200,21 +204,21 @@ main {
 }
 
 .gallery-caption .title {
-  font-size: 12px;
+  font-size: 14px;
   letter-spacing: 0.06em;
-  color: #999;
+  color: #777;
   display: block;
 }
 
 .gallery-caption .year {
-  font-size: 11px;
+  font-size: 13px;
   letter-spacing: 0.06em;
-  color: #bbb;
+  color: #999;
   display: block;
   margin-top: 2px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
   .gallery { columns: 2; }
 }
 
@@ -242,7 +246,7 @@ main {
 }
 
 .cv-section-title {
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -262,18 +266,18 @@ main {
 }
 
 .cv-year {
-  font-size: 12px;
+  font-size: 15px;
   letter-spacing: 0.04em;
-  color: #bbb;
+  color: #999;
   min-width: 48px;
   flex-shrink: 0;
   padding-top: 1px;
 }
 
 .cv-desc {
-  font-size: 13px;
+  font-size: 16px;
   letter-spacing: 0.03em;
-  color: #666;
+  color: #555;
   line-height: 1.6;
 }
 
@@ -301,9 +305,9 @@ main {
 }
 
 .contact-content a {
-  font-size: 13px;
+  font-size: 16px;
   letter-spacing: 0.06em;
-  color: #999;
+  color: #777;
   transition: color 0.2s;
 }
 
@@ -322,10 +326,10 @@ main {
 
 footer {
   padding: 32px 48px;
-  font-size: 11px;
+  font-size: 13px;
   letter-spacing: 0.10em;
   text-transform: uppercase;
-  color: #ccc;
+  color: #aaa;
 }
 
 @media (max-width: 600px) {
